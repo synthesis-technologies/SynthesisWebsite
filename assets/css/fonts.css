@@ -1,0 +1,14 @@
+/* Font face */
+@font-face {
+    font-family: "bahnschrift";
+    src: url(../fonts/BAHNSCHRIFT.TTF);
+}
+/* @font-face {
+    font-family: "Poppins";
+    src: '../fonts/Poppins-Regular.ttf';
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: '../fonts/Poppins-Regular.ttf';
+} */
