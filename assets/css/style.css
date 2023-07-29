@@ -31,15 +31,15 @@ h6 {
 
 /* <----------topbar---------> */
 .maincolor {
-  color: #01004E;
+  color: #04044c;
 }
 
 .maincolor1 {
-  color: #F5D161;
+  color: #dca549;
 }
 
 .bgcolor {
-  background-color: #01004E;
+  background-color: #04044c;
 }
 
 .topsvg {
@@ -58,7 +58,7 @@ h6 {
   top: 49%;
   left: 98%;
   border-radius: 11px;
-  background-color: #F4E599;
+  background-color: #dca549;
   transform: rotate(304deg);
 }
 
@@ -70,16 +70,17 @@ h6 {
   top: 44%;
   left: -11%;
   border-radius: 11px;
-  background-color: #F4E599;
+  background-color: #dca549;
   transform: rotate(319deg);
 }
 
 /* <-----slider---------> */
 
 .carousel-item {
-  background: linear-gradient(90deg, #0F3C78, #ffffff00);
-  background-color: rgb(27, 26, 26);
+   background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), left center no-repeat;
+  background-size: cover;
   height: 550px;
+
 }
 
 .carbtn {
@@ -127,7 +128,7 @@ h6 {
   bottom: -4px;
   left: 55%;
   border-radius: 5px;
-  background-color: #01004E;
+  background-color: #04044c;
 }
 
 .cardsec {
@@ -153,7 +154,7 @@ h6 {
 }
 
 .grow_spin:hover {
-  color: #F5D161;
+  color: #dca549;
 }
 
 .grow_spin::after {
@@ -207,9 +208,11 @@ h6 {
   bottom: -4px;
   left: 54%;
   border-radius: 5px;
-  background-color: #01004E;
+  background-color: #04044c;
 }
-
+.reqbtn{
+  word-spacing: 5px;
+}
 /* <-------------section2 close-----------> */
 
 /* <------------section3 start---------> */
@@ -221,7 +224,7 @@ h6 {
   bottom: -4px;
   left: 44%;
   border-radius: 5px;
-  background-color: #01004E;
+  background-color: #04044c;
 }
 
 
@@ -296,7 +299,7 @@ h6 {
   padding: 6px 12px;
   position: relative;
   text-decoration: none;
-  border: 2px solid #F5D161;
+  border: 2px solid #dca549;
   transition: all .2s
 }
 
@@ -316,7 +319,7 @@ h6 {
   bottom: -4px;
   left: 44%;
   border-radius: 5px;
-  background-color: #01004E;
+  background-color: #04044c;
 }
 
 
@@ -382,23 +385,121 @@ h6 {
   object-fit: cover;
 }
 
+/* <============about================> */
+.page-header {
+  background: url(../img/NEW/banner.jpg) center center no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(4,4,76,0.702);
+  padding: 100px 0;
+}
+
+.abtbottom{
+  border-color: #dca549 !important;
+}
 
 
 
 
 
+/* <==========footer==========> */
+
+#footer {
+  background: #04044c;
+}
+
+#footer .footer-top {
+  background: #04044c;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #292929;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #dca549;
+  color: #04044c;
+  text-decoration: none;
+}
 
 
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #dca549;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #dca549;
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+
+#footer .copyright {
+  text-align: center;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+/* <============footer========> */
 
 
 /* <========contact=============> */
-
-
-/* Contact Form */
 .contact-section {
-  /* height: 90vh; */
   background-image: url(../img/NEW/cont5.jpg);
   background-position: left center;
   background-size: cover;
@@ -558,7 +659,7 @@ h6 {
   padding: 50px 140px ;
 } */
 .banner-404{
-  background-color: #080736;
+  background-color: #04044c;
   padding: 60px 0;
 }
 
