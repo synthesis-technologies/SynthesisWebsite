@@ -147,12 +147,16 @@
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="5000">
-        <img src="./assets/img/NEW/6 car.jpg" class="d-block w-100" alt="...">
+        <img src="./assets/img/NEW/6 car.jpg" class="d-block h-100 w-100" alt="...">
         <div class="carousel-caption d-md-block">
-          <div class=" d-flex align-items-end titleBar">
-            <h1 class=" me-2 display-3 fw-semibold text-start w-50 mb-0 carousal">PROPEL YOUR BUSINESS FORWARD</h1>
-            <div class="border-start text-start ps-3 mb-3">
-              <h2 class="h4 text-uppercase">Your tech partners for creative and effective digital solutions.We design
+          <div class=" d-flex flex-column flex-lg-row align-items-end titleBar">
+            <h1 class=" me-2 display-3 fw-semibold text-start w-50 carousal-font ">PROPEL YOUR BUSINESS FORWARD</h1>
+
+            <button type="button" class="py-2 px-4 border border-dark d-block d-lg-none carbtn text-white">GET A FREE
+              CONSULATION</button>
+
+            <div class="border-start text-start ps-3 mb-3 side-carousal">
+              <h2 class="h4 text-uppercase ">Your tech partners for creative and effective digital solutions.We design
                 strategies to optimize your business efficiency
               </h2>
               <button type="button" class="py-2 px-4 border border-dark d-block carbtn text-white">GET A FREE
@@ -163,13 +167,16 @@
       </div>
 
       <div class="carousel-item">
-        <img src="./assets/img/NEW/2 car.jpg" data-bs-interval="5000" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class=" d-flex align-items-end titleBar">
-            <h1 class=" me-2 display-3 fw-semibold text-start w-50 mb-0 carousal text-uppercase">Uncover limitless
-              potential.</h1>
-            <div class="border-start text-start ps-3 mb-3">
-              <h2 class="h4 text-uppercase">Capitalizing technology for operational efficiency, innovation, customer
+        <img src="./assets/img/NEW/2 car.jpg" data-bs-interval="5000" class="d-block w-100 h-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <div class=" d-flex flex-column flex-lg-row align-items-end titleBar">
+            <h1 class=" me-2 display-3 fw-semibold text-start w-50 carousal-font ">Uncover limitless potential.</h1>
+
+            <button type="button" class="py-2 px-4 border border-dark d-block d-lg-none carbtn text-white">GET A FREE
+              CONSULATION</button>
+
+            <div class="border-start text-start ps-3 mb-3 side-carousal">
+              <h2 class="h4 text-uppercase ">Capitalizing technology for operational efficiency, innovation, customer
                 experience, data-driven decision-making and scalability.
               </h2>
               <button type="button" class="py-2 px-4 border border-dark d-block carbtn text-white">GET A FREE
@@ -179,21 +186,29 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/NEW/1 car.jpg" data-bs-interval="5000" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <div class=" d-flex align-items-end titleBar">
-            <h1 class=" me-2 display-3 fw-semibold text-start w-50 mb-0 carousal">Bringing Your Web Vision to Life</h1>
-            <div class="border-start text-start ps-3 mb-3">
-              <h2 class="h4 text-uppercase">We leverage our technical expertise to plan, design and develop the required
+        <img src="./assets/img/NEW/1 car.jpg" data-bs-interval="5000" class="d-block w-100 h-100" alt="...">
+
+        <div class="carousel-caption d-md-block">
+          <div class=" d-flex flex-column flex-lg-row align-items-end titleBar">
+            <h1 class=" me-2 display-3 fw-semibold text-start w-50 carousal-font ">Bringing Your Web Vision to Life</h1>
+
+            <button type="button" class="py-2 px-4 border border-dark d-block d-lg-none carbtn text-white">GET A FREE
+              CONSULATION</button>
+
+            <div class="border-start text-start ps-3 mb-3 side-carousal">
+              <h2 class="h4 text-uppercase ">We leverage our technical expertise to plan, design and develop the
+                required
                 software or digital solutions, effectively translating ides into tangible products.
               </h2>
-              <button type="button" class="py-2 px-4 border border-dark  d-block carbtn text-white">GET A FREE
+              <button type="button" class="py-2 px-4 border border-dark d-block carbtn text-white">GET A FREE
                 CONSULATION</button>
             </div>
           </div>
         </div>
+
       </div>
     </div>
+  </div>
 
   </div>
 
@@ -201,208 +216,392 @@
 
   <!-- <------------------------section 1 start------------------>
 
-  <div class="container py-5 ">
-    <div class="spacing position-relative">
-      <h2 class="pb-2 text-center text-uppercase fw-semibold under1">Technologies that <span class="maincolor1 ">drive
-          Growth</span></h2>
-    </div>
+  <div class="container py-5">
+    <h2 class="display-4 text-center text-capitalize fw-semibold">Technologies that drive <span
+      class="maincolor1 ">Growth</span></h2>
 
-    <div class="row py-5 ">
-      <div class="col-lg-3 col-sm-12 card-cover h-100 overflow-hidden rounded-4 shadow-lg cardsec">
-        <div
-          class=" d-flex align-items-start d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img class="svgsec1" src="./assets/img/NEW/SVG/Web dev.svg">
-          <h3 class="fs-3 ms-3 mt-2">Website <br>Development</h3>
-        </div>
-        <div>
+    <div class="row">
+      <div class="col-lg-4 feature-text card-cover h-100 wow fadeIn" data-wow-delay="0.1s">
+        <div class="p-lg-5 p-lg-0">
+          <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img class="svgsec1" src="./assets/img/NEW/SVG/Web dev.svg">
+            <h3 class="fs-3 ms-3 mt-2">Website <br>Development</h3>
+          </div>
           <p class="fw-light pb-3">We are a leading web development team delivering unparalleled user-friendly websites
             that elevate your
             online presence, combining design and cutting-edge technologies for a captivating user experience. Let's
             embark on an extraordinary digital transformation journey together.
           </p>
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+          <div class="row g-4">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-react fs-4" style="color: #61DAFB;"></i>
-                <h5 class="mb-0 ms-2">React</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">React</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-js fs-4" style="color:#F0DB4F"></i>
-                <h5 class="mb-0 ms-2">Javascript</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Javascript</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-node fs-4" style="color: #6FA660;"></i>
-                <h5 class="mb-0 ms-2">Node</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Node</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-php fs-4"></i>
-                <h5 class="mb-0 ms-2">PHP</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">PHP</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-wordpress fs-4"></i>
-                <h5 class="mb-0 ms-2">Wordpress</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Wordpress</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-shopify fs-4" style="color: #95BF46;"></i>
-                <h5 class="mb-0 ms-2">Shopify</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Shopify</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="wrapper mt-3">
-            <button class="grow_spin">Explore More</button>
+            <div class="wrapper mt-3">
+              <button class="grow_spin">Explore More</button>
+            </div>
+
           </div>
         </div>
       </div>
 
-      <div class="col col-lg-3 col-sm-12 card-cover h-100 overflow-hidden rounded-4 shadow-lg mx-5 cardsec">
-        <div
-          class=" d-flex align-items-start d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img class="svgsec1" src="./assets/img/NEW/SVG/digital.svg">
-          <h3 class="fs-3 ms-3 mt-2">Digital<br> Marketing</h3>
-        </div>
-        <div>
+      <div class="col-lg-4 feature-text h-100 card-cover  wow fadeIn" data-wow-delay="0.1s">
+        <div class="p-lg-5 ps-lg-0">
+          <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img class="svgsec1" src="./assets/img/NEW/SVG/digital.svg">
+            <h3 class="fs-3 ms-3 mt-2">Digital<br> Marketing</h3>
+          </div>
           <p class="fw-light pb-3">We are digital marketing experts offering innovative strategies that elevate brands'
             online presence and
             drive tangible results through engaging content and impactful campaigns. Let us be your guiding light in the
             ever-evolving digital landscape. </p>
-
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+          <div class="row g-4">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog " src="./assets/img/NEW/SVG/adwords.svg">
-                <h5 class="mb-0 ms-2">Google Ads</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Google Ads</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog" src="./assets/img/NEW/SVG/pay-per-click_637922.svg">
-                <h5 class="mb-0 ms-2">PPC</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">PPC</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog " src="./assets/img/NEW/SVG/SEO1.svg">
-                <h5 class="mb-0 ms-2">SEO</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">SEO</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog" src="./assets/img/NEW/SVG/SMM.svg">
-                <h5 class="mb-0 ms-2">SMM</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">SMM</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog " src="./assets/img/NEW/SVG/content-9813.svg">
-                <h5 class="mb-0 ms-2">Content Writing</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Content Writing</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog " src="./assets/img/NEW/SVG/online reputation management.svg">
-                <h5 class="mb-0 ms-2">ORM</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">ORM</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="wrapper mt-3">
-            <button class="grow_spin">Explore More</button>
+            <div class="wrapper mt-3">
+              <button class="grow_spin">Explore More</button>
+            </div>
+
+
+
           </div>
         </div>
       </div>
 
-      <div class="col col-lg-3 col-sm-12 card-cover h-100 overflow-hidden rounded-4 shadow-lg cardsec">
-        <div
-          class=" d-flex align-items-start d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-          <img class="svgsec1" src="./assets/img/NEW/SVG/mobile app.svg">
-          <h3 class="ms-3">Mobile App<br> Development</h3>
-        </div>
-        <div>
+      <div class="col-lg-4 feature-text h-100 card-cover  wow fadeIn" data-wow-delay="0.1s">
+        <div class="p-lg-5 ps-lg-0">
+          <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img class="svgsec1" src="./assets/img/NEW/SVG/mobile app.svg">
+            <h3 class="ms-3">Mobile App<br> Development</h3>
+          </div>
           <p class="fw-light pb-3">
             Embrace the mobile revolution with our mobile application development team, creating intuitive and elegant
             applications for iOS, Android, and Windows Phone that captivate users across the digital landscape. Invest
             wisely in sharing your vision with the world, and we'll bring it to life with creativity.</p>
-
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+          <div class="row g-4">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <i class="fa-brands fa-react fs-4" style="color: #61DAFB;"></i>
-                <h5 class="mb-0 ms-2">React Native</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">React Native</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog" src="./assets/img/NEW/SVG/kotlin.svg">
-                <h5 class="mb-0 ms-2">Kotlin</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Kotlin</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog" src="./assets/img/NEW/SVG/flutter.svg">
-                <h5 class="mb-0 ms-2">Flutter</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Flutter</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog" src="./assets/img/NEW/SVG/IONIC.png">
-                <h5 class="mb-0 ms-2">Ionic</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Ionic</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="row g-4 mb-4">
-            <div class="col-sm-6">
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog" src="./assets/img/NEW/SVG/android.svg">
-                <h5 class="mb-0 ms-2">Android</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">Android</h5>
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
+
+            <div class="col-6">
               <div class="d-flex align-items-center">
                 <img class="indlog " src="./assets/img/NEW/SVG/apple-ios.svg">
-                <h5 class="mb-0 ms-2">IOS</h5>
+                <div>
+                  <h5 class="mb-0 ms-2">IOS</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="wrapper mt-3">
-            <button class="grow_spin">Explore More</button>
+            <div class="wrapper mt-3">
+              <button class="grow_spin">Explore More</button>
+            </div>
+
           </div>
         </div>
       </div>
+
+      <div class="col-lg-4 feature-text h-100 card-cover wow fadeIn" data-wow-delay="0.1s">
+        <div class="p-lg-5 ps-lg-0">
+          <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img class="svgsec1" src="./assets/img/NEW/SVG/branding.svg">
+            <h3 class="fs-3 ms-3">Brand Identity<br> Design</h3>
+          </div>
+          <p class="fw-light pb-3">
+            Craft captivating and memorable brand identities with our talented team of designers and strategists,
+            ensuring your brand stands out and fosters customer loyalty in a crowded marketplace. We breathe life into
+            your brand's personality with mesmerizing logos, striking color palettes.</p>
+          <div class="row g-4">
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-indesign-cc-icon.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Indesign</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/corel-draw-x8.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Corel Draw</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-photoshop-2.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Photoshop</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog " src="./assets/img/NEW/SVG/after-effects-1.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">After Effect</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-illustrator-cc-icon.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Illustrator</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog " src="./assets/img/NEW/SVG/profile_3135715.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">User Persona</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="wrapper mt-3">
+              <button class="grow_spin">Explore More</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 feature-text h-100 card-cover  wow fadeIn" data-wow-delay="0.1s">
+        <div class="p-lg-5 ps-lg-0">
+          <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img class="svgsec1" src="./assets/img/NEW/SVG/graphic-design.svg">
+            <h3 class="fs-3 ms-3">UI/UX <br>Design</h3>
+          </div>
+          <p class="fw-light pb-3">Unleash the power of exceptional UI/UX design expertise with our visionary team,
+            creating captivating and intuitive interfaces that engage and delight your audience. Embrace innovation and
+            transform your digital
+            products with our tailored UI/UX solutions that bring your unique vision to life.</p>
+          <div class="row g-4">
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog1" src="./assets/img/NEW/SVG/figma-5.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Figma</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-xd-2.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Adobe XD</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-illustrator-cc-icon.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Illustrator</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-photoshop-2.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Photoshop</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/adobe-indesign-cc-icon.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Indesign</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="d-flex align-items-center">
+                <img class="indlog" src="./assets/img/NEW/SVG/sketch-2.svg">
+                <div>
+                  <h5 class="mb-0 ms-2">Sketch</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="wrapper mt-3">
+              <button class="grow_spin">Explore More</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+
+
+<!-- 
+  <div class="container py-5 mt-4 ">
+    <h2 class="display-4 text-center text-capitalize fw-semibold">Technologies that drive <span
+        class="maincolor1 ">Growth</span></h2>
+
 
     <div class="row py-5 d-flex justify-content-center">
       <div class="col-lg-3 col-sm-12 card-cover h-100 overflow-hidden rounded-4 shadow-lg cardsec mt-lg-3 me-5">
-        <div class=" d-flex align-items-start d-inline-flex align-items-center justify-content-center fs-4  me-3">
+        <div class="d-inline-flex align-items-center justify-content-center fs-4  me-3">
           <img class="svgsec1" src="./assets/img/NEW/SVG/branding.svg">
           <h3 class="fs-3 ms-3">Brand Identity<br> Design</h3>
         </div>
@@ -466,9 +665,8 @@
 
       </div>
 
-      <div class="col-lg-3 col-sm-12 card-cover h-100 overflow-hidden rounded-4 shadow-lg cardsec mt-lg-3 ">
-        <div
-          class=" d-flex align-items-start d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <div class="col-lg- col-sm-12 card-cover h-100 overflow-hidden rounded-4 shadow-lg cardsec mt-lg-3 w-100">
+        <div class="d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
           <img class="svgsec1" src="./assets/img/NEW/SVG/graphic-design.svg">
           <h3 class="fs-3 ms-3">UI/UX <br>Design</h3>
         </div>
@@ -532,7 +730,7 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <----------------------------Section 1 close-------------------->
 
@@ -849,9 +1047,11 @@
               deleniti molestiae ut rem debitis harum quam architecto nam, dicta, illo modi libero ipsa nemo!
             </p>
             <p class="text-white fw-light mt-2 small">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi labore adipisci esse praesentium nihil minima asperiores enim? Magni rem ratione impedit illum, odio, temporibus nulla eum quis, voluptatum ipsam distinctio.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi labore adipisci esse praesentium nihil
+              minima asperiores enim? Magni rem ratione impedit illum, odio, temporibus nulla eum quis, voluptatum ipsam
+              distinctio.
             </p>
-            
+
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links mt-lg-5 ">
@@ -864,7 +1064,8 @@
               <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Shopify Us</a></li>
 
 
-              <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Android App Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Android App Development</a>
+              </li>
               <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">React Native us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Flutter</a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Logo Designing</a></li>
@@ -875,7 +1076,8 @@
           <div class="col-lg-3 col-md-6 footer-links mt-5">
             <h5 class="fw-semibold text-white"></h5>
             <ul class="p-0 pt-1 mt-4">
-              <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Search Engine Optimization</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Search Engine Optimization</a>
+              </li>
               <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Google Ads</a>
               </li>
               <li><i class="bx bx-chevron-right"></i> <a class="small fw-light" href="/">Pay-Per-Click</a></li>
@@ -901,7 +1103,8 @@
                 <i class="bi bi-geo-alt fs-2 me-2"></i>
                 <div>
                   <h5 class="m-0 h6 fw-semibold text-white">Office Address</h5>
-                  <p class="small fw-light ">SCO 10, Pocket D, Millennium Court, Wave Estates, Sector 85, Sahibzada Ajit Singh Nagar, Punjab 140308</p>
+                  <p class="small fw-light ">SCO 10, Pocket D, Millennium Court, Wave Estates, Sector 85, Sahibzada Ajit
+                    Singh Nagar, Punjab 140308</p>
                 </div>
               </div>
 

@@ -8,7 +8,25 @@
 
 /***** ============ mobile view ============ ******/
 @media(max-width: 991px) {
-
+    .carousel-item{
+        height: 360px;
+    }
+    .side-carousal{
+        display: none;
+    }
+    .titleBar{
+        align-items: start !important;
+    }
+    .carousal-font{
+        font-size:2rem
+    }
+    .topline::after{
+        display: none !important;
+    }
+    .topline1::before    {
+        display: none !important;
+    }
+   
 }
 
 /*** ============ mobile view .end// ============ ***/
