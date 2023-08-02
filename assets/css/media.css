@@ -8,7 +8,68 @@
 
 /***** ============ mobile view ============ ******/
 @media(max-width: 991px) {
+    .carousel-item{
+        height: 360px;
+    }
+    .side-carousal{
+        display: none;
+    }
+    .titleBar{
+        align-items: start !important;
+    }
+    .carousal-font{
+        font-size:2rem
+    }
+    .topline::after{
+        display: none !important;
+    }
+    .topline1::before    {
+        display: none !important;
+    }
+   
+}
+
+/* <==========services card=======> */
+
+@media(max-width: 991px) {
+    .card-cover{
+        margin: 1rem 0;
+    }
+    .cardmedia{
+        padding: 1rem;
+    }
+    .rowcardmedia{
+        padding: 0 !important;
+    }
 
 }
 
+/* <==========contact=============> */
+@media(max-width: 991px) {
+    .contact-container {
+        padding: 1rem;
+      }
+
+
+
+}
+
+
+
+/* <==========footer=========> */
+.footerul{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .info-container{
+    margin: 1rem !important;
+  }
+
+  .social-links{
+    justify-content: center;
+  }
+
+
+
 /*** ============ mobile view .end// ============ ***/
+
