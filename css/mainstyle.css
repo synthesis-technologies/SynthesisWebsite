@@ -1,0 +1,650 @@
+@import url('./__variables.css');
+
+.bg-main-color {
+  background: var(--primary-color);
+}
+
+.primary-color-1 {
+  color: var(--primary-color2);
+}
+
+.synthesis-logo {
+  width: 20rem;
+  height: 5.5rem;
+}
+
+.nav-line {
+  border-bottom: 0.12rem solid var(--primary-color2);
+}
+
+.head-text {
+  border-bottom: 0.4rem solid var(--primary-color2);
+}
+
+.top-icon-svg {
+  width: 1.56rem;
+}
+
+.top-side-line::before {
+  content: "";
+  width: 75px;
+  height: 2px;
+  position: absolute;
+  border-radius: 0.68rem;
+  background-color: var(--primary-color2);
+  transform: rotate(304deg) translate(-120%, -355%);
+}
+
+.top-side-line::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  position: absolute;
+  border-radius: 0.68rem;
+  background-color: var(--primary-color2);
+  transform: rotate(304deg) translate(-31%, -1219%);
+  right: 0;
+}
+
+.nav-link-active {
+  color: var(--primary-color2) !important;
+}
+
+.nav-link-active::after {
+  color: var(--primary-color2) !important;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--primary-color2);
+  transition: width .3s;
+}
+
+.nav-link-hover:hover {
+  color: var(--primary-color2) !important;
+}
+
+.nav-link-hover:hover i {
+  color: var(--primary-color2) !important;
+}
+
+.nav-link-hover::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color2);
+  transition: width .3s;
+}
+
+.nav-link-hover:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+.service-link-hover::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color2);
+  transition: width .3s;
+}
+
+.service-link-hover:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+.dropdown-services::after {
+  margin-left: 0;
+  vertical-align: 0;
+  content: "";
+  border: 0 !important;
+}
+
+.navbar .megamenu {
+  padding: 2rem 6rem;
+
+}
+
+.dropdown-megamenu-item {
+  text-decoration: none !important;
+  color: var(--primary-color) !important;
+  font-size: 0.7rem;
+}
+
+.dropdown-megamenu-item:hover {
+  color: var(--primary-color) !important;
+}
+
+.title {
+  cursor: default !important;
+}
+
+.carousel-item {
+  height: 100vh;
+  background: #04044c;
+  background: linear-gradient(90deg, rgba(4, 4, 76, 1) 0%, rgba(255, 255, 255, 1) 96%);
+  background-size: cover;
+  background-position: left center;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+
+  z-index: 1;
+}
+
+.carousel-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(90deg, #04044c 0%, transparent 100%), linear-gradient(0deg, rgba(4, 4, 76, 1) 36%, rgba(255, 255, 255, 0) 100%);
+  opacity: 0.7;
+}
+
+.carousel-item1 {
+  background-image: url(../image/Synthesis-Technologies-banner-1.jpg);
+}
+
+.carousel-item2 {
+  background-image: url(../image/Synthesis-Technologies-banner-2.jpg);
+}
+
+.carousel-item3 {
+  background-image: url(../image/Synthesis-Technologies-banner-3.jpg);
+}
+
+.carousel-caption {
+  z-index: 3;
+}
+
+.carousel-item-h1 {
+  margin-right: 1rem;
+  flex-basis: 20vw;
+}
+
+.carousel-caption-text {
+  flex-basis: 35vw;
+  border-left: solid 0.125rem white;
+}
+
+.call-to-action-btn {
+  background-color: #04044c;
+  word-spacing: 0.4rem;
+}
+
+
+/* Services Section Starts */
+.card-shadow {
+  border: solid 1px #04044c;
+  border-radius: 0.5rem;
+}
+
+.card-shadow:hover {
+  box-shadow: 1px 3px 25px #04044cd6 !important;
+  transition: 0.5s ease-in-out;
+}
+
+.services-sub-item-img {
+  width: 25px;
+}
+
+.grow_spin {
+  background: #04044c;
+  color: #fff;
+  border: 0.25rem solid #04044c;
+  padding: 5px 20px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.grow_spin:hover {
+  color: #dca549;
+}
+
+.grow_spin::after {
+  content: "";
+  background: #ecf0f1;
+  position: absolute;
+  z-index: -1;
+  padding: 0.85em 0.75em;
+  display: block;
+}
+
+.grow_spin[class^="grow"]::after {
+  transition: all 0.3s ease;
+}
+
+.grow_spin[class^="grow"]:hover::after {
+  transition: all 0.3s ease-out;
+}
+
+.grow_spin::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: scale(0, 0) rotate(-180deg);
+}
+
+.grow_spin:hover::after {
+  transform: scale(1, 1) rotate(0deg);
+}
+
+/* Services Section Ends */
+
+
+/* Industries Section Starts */
+.owl-carousel {
+  margin-left: 0.5rem;
+}
+
+.owl-stage-outer {
+  left: -0.5rem;
+}
+
+.owl-dots {
+  display: none;
+}
+
+.industry-img {
+  width: 20vw;
+  /* background-blend-mode: saturation; */
+  background-color: #000000ad;
+  background-position: center;
+  background-size: cover;
+  height: 20rem;
+  overflow-y: hidden;
+  /* border-top-left-radius: 1rem;
+    border-start-end-radius: 1rem; */
+  transition: all 1s linear;
+}
+
+.industry-img-1 {
+  background-image: url(../image/industry-01-realestate.jpg);
+}
+
+.industry-img-2 {
+  background-image: url(../image/industry-02-fitness.jpg);
+}
+
+.industry-img-3 {
+  background-image: url(../image/industry-03-food.jpg);
+}
+
+.industry-img-4 {
+  background-image: url(../image/industry-04-fintech.jpg);
+}
+
+.industry-img-5 {
+  background-image: url(../image/industry-05-retail.jpg);
+}
+
+.industry-img-6 {
+  background-image: url(../image/industry-06-education.jpg);
+}
+
+.industry-img-7 {
+  background-image: url(../image/industry-07-logistics.jpg);
+}
+
+.industry-data {
+  background-color: #04044c85;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 67%;
+  padding: 1rem;
+  /* display: none; */
+  transition: all 0.6s linear;
+}
+
+.industry-data>p {
+  display: none;
+}
+
+.industry-img:hover .industry-data {
+  padding-top: 5rem;
+  top: 0%;
+  transition: all .4s linear;
+}
+
+.industry-img:hover .industry-data p {
+  display: block;
+  font-size: 0.8rem;
+  transition: all 0.6s linear;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+.owl-nav button span {
+  font-size: 30px;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.owl-carousel .owl-nav {
+  margin: 0;
+}
+
+.btn-wrap {
+  text-align: center;
+  width: 100%;
+}
+
+button.owl-btn {
+  background-color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.5s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 13rem;
+  z-index: 1000;
+}
+
+
+/* Industries Section Ends */
+
+/* Contact Section Starts From Here */
+.contact-us {
+  /* background-image: url(../image/contact.jpg); */
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(90deg, #04044cb2 0%, transparent 100%), linear-gradient(0deg, rgba(4, 4, 76, 0.774) 36%, rgba(255, 255, 255, 0) 100%), url(../image/contact-1.jpg);
+  /* background-blend-mode: overlay; */
+  background-attachment: fixed;
+}
+
+.form-error {
+  display: none;
+}
+
+.sendbtn:hover {
+  color: #F4E599;
+  background-color: #0F3C78;
+  border-radius: 0;
+}
+
+/* Contact Section Ends Here */
+
+/* <==========footer==========> */
+
+#footer {
+  background: #04044c;
+}
+
+.social-media-icons {
+  font-size: 1.2rem;
+  display: inline-block;
+  background: #292929;
+  line-height: 1;
+  width: 2.25rem;
+  height: 2.25rem;
+  transition: 0.3s;
+}
+
+.social-media-icons:hover {
+  background: var(--primary-color2);
+  color: var(--primary-color);
+}
+
+
+.footer-links ul li i {
+  padding-right: 2px;
+  color: var(--primary-color2);
+  font-size: 0.7rem;
+}
+
+.footer-links ul li {
+  padding: 4px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.footer-links ul a:hover {
+  color: #dca549;
+  letter-spacing: 1px;
+}
+
+.footer-font {
+  font-size: 0.8rem;
+}
+
+.terms-conditions-hover:hover{
+  color: #fff !important;
+}
+
+/* <============footer========> */
+
+
+/* =========== About ========== */
+
+.page-header {
+  background: url(../image/about-banner.jpg) center center no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #04044cb3;
+  padding: 6rem 0;
+  margin-top: 5rem;
+  color: var(--primary-color2);
+}
+
+.abtbottom{
+  border-color: #dca549 !important;
+}
+
+/* ============= About End ====== */
+
+/* ============= Contact Page Start ====== */
+.contact-header{
+  background-image: url(../image/contact-banner.jpg);
+}
+/* ============= Contact Page End ====== */
+
+
+/* <==========Error=============> */
+
+.error-warning-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+
+.social-icons-404>li {
+  display: inline-block;
+}
+
+.error-404 {
+  width: 100%;
+}
+
+/* terms & conditions  | Privacy Policy */
+.terms-header {
+  padding: 6rem 0 0 0;
+  margin-top: 5rem;
+  color: var(--primary-color2);
+}
+
+
+/* e-commerce development page */
+.ecommerce-bg-img{
+  background-image: url(../image/ecommerce/ecommerce-bg-img.png);
+  background-position: right;
+  background-size: 52% 170%;
+  background-repeat: no-repeat;
+}
+.ecomcard{
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background-color: #F8F8F8;
+}
+.ecomcard:hover{
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.5);
+  transition: all 0.7s 0s linear;
+}
+.card-icon{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  top: -3rem;
+}
+.why-choose-us-bgimg{
+  background-image: url(../image/why-choose-us-banner.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .industry-img {
+    width: 100%; 
+  }
+
+  .owl-left {
+    transform: translateX(-1500%);
+  }
+  
+  .owl-right {
+    transform: translateX(1385%);
+  }
+
+}
+
+/* ============ desktop view .end// ============ */
+
+
+/* ============ mobile view ============ */
+@media(max-width: 991.9px) {
+
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+
+  .navbar .megamenu {
+    padding: 2rem 1.5rem;
+  }
+
+  .synthesis-logo {
+    width: 12.5rem;
+    height: 3.5rem;
+  }
+
+  .top-icon-svg {
+    width: 1rem;
+  }
+
+  .nav-line {
+    border: none;
+  }
+
+  .top-side-line::before {
+    display: none;
+  }
+
+  .top-side-line::after {
+    display: none;
+  }
+
+  .top-social-icon {
+    display: none;
+  }
+
+  .carousel-item {
+    height: 90vh;
+    background-position: center center;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+
+  .carousel-item-h1 {
+    margin-right: 1rem;
+  }
+
+  .carousel-caption-text {
+    border-left: none;
+  }
+
+  .carousel-caption-text>p.lead {
+    font-size: 0.8rem !important;
+  }
+
+
+  .industry-img {
+    width: 100%;
+  }
+
+  .owl-left {
+    transform: translateX(-965%);
+  }
+  
+  .owl-right {
+    transform: translateX(845%);
+  }
+
+  /* e-commerce development page */
+  .ecommerce-bg-img{
+    background-size: 90% calc(100% - 40%);
+    background-position: top right;
+  }
+
+}
+
+/* ============ mobile view .end// ============ */
+
+
+
+

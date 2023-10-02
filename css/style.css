@@ -1,0 +1,273 @@
+@import url('./__variables.css');
+
+
+
+/* <----------topbar---------> */
+.maincolor {
+  color: #01004E;
+}
+
+.maincolor1 {
+  color: #F5D161;
+}
+
+.bgcolor {
+  background-color: #01004E;
+}
+
+.topsvg {
+  width: 20px;
+}
+
+.topbottom {
+  border-bottom: 2px solid #F4E599;
+}
+
+.topline::after {
+  content: "";
+  width: 58px;
+  height: 3px;
+  position: absolute;
+  top: 49%;
+  left: 98%;
+  border-radius: 11px;
+  background-color: #F4E599;
+  transform: rotate(304deg);
+}
+
+.topline::before {
+  content: "";
+  width: 88px;
+  height: 3px;
+  position: absolute;
+  top: 44%;
+  left: -11%;
+  border-radius: 11px;
+  background-color: #F4E599;
+  transform: rotate(319deg);
+}
+
+/* <-----slider---------> */
+
+.carousel-item {
+  background: linear-gradient(90deg, #0F3C78, #ffffff00);
+  background-color: rgb(27, 26, 26);
+  height: 550px;
+}
+
+.carbtn {
+  background-color: #01004E;
+}
+
+/* <----------slider close-------> */
+
+
+/* <--------section 1-------> */
+.svgsec1 {
+  width: 3rem;
+}
+
+.svgsec2 {
+  width: 1.5rem;
+}
+
+.indlog {
+  width: 25px;
+}
+
+.indlog1 {
+  width: 30px;
+}
+
+.indbox {
+  margin-left: 41px;
+}
+
+.svginner {
+  margin-left: 40px;
+}
+
+.card-cover:hover {
+  box-shadow: 1px 3px 25px rgb(179 179 179 / 84%) !important;
+  transition: 0.5s ease-in-out;
+}
+
+.card-cover {
+  width: 30% !important;
+}
+
+.spacing {
+  letter-spacing: 3px;
+}
+
+.under1::before {
+  content: "";
+  width: 250px;
+  height: 5px;
+  position: absolute;
+  bottom: -4px;
+  left: 55%;
+  border-radius: 5px;
+  background-color: #01004E;
+}
+
+/* <---------section1 close------> */
+
+/* <------------section2 start--------> */
+
+.sec2image {
+  background-image: url(../img/NEW/5\ car.jpg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+.sec2icon {
+  width: 50px;
+}
+
+.under::before {
+  content: "";
+  width: 185px;
+  height: 5px;
+  position: absolute;
+  bottom: -4px;
+  left: 54%;
+  border-radius: 5px;
+  background-color: #01004E;
+}
+
+/* <-------------section2 close-----------> */
+
+/* <------------section3 start---------> */
+.under2::before {
+  content: "";
+  width: 161px;
+  height: 5px;
+  position: absolute;
+  bottom: -4px;
+  left: 44%;
+  border-radius: 5px;
+  background-color: #01004E;
+}
+
+
+.blogimg {
+  background-blend-mode: saturation;
+  background-color: #0000006e;
+  background-position: center;
+}
+
+
+.fg-services .fg_services_item {
+  height: 310px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fg-services .fg_services_item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(72, 72, 72, .3)
+}
+
+.fg-services .fg_services_item:hover .fg_services_item_text {
+  bottom: -15px;
+  background-color: #081f3ac2;
+  background-blend-mode: overlay;
+
+}
+
+.fg-services .fg_services_item:hover .fg_services_item_text h4 {
+  margin-bottom: 12px
+}
+
+.fg-services .fg_services_item_text {
+  position: absolute;
+  left: 0;
+  bottom: -275px;
+  width: 100%;
+  padding: 58px 20px;
+  -webkit-transition: all, .4s;
+  -o-transition: all, .4s;
+  transition: all, .4s
+}
+
+.fg-services .fg_services_item_text h4 {
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 80px;
+  -webkit-transition: all, .2s;
+  -o-transition: all, .2s;
+  transition: all, .2s;
+  font-size: 22px
+}
+
+.fg-services .fg_services_item_text p {
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 300
+}
+
+.fg-services .fg_services_item_text a {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 6px 12px;
+  position: relative;
+  text-decoration: none;
+  border: 2px solid #F5D161;
+  transition: all .2s
+}
+
+.fg-services .fg_services_item_text a:hover {
+  background: #0F3C78;
+}
+
+
+/* <----------section3 close----------> */
+
+/* <-----------section4 start------> */
+.under3::before {
+  content: "";
+  width: 240px;
+  height: 5px;
+  position: absolute;
+  bottom: -4px;
+  left: 44%;
+  border-radius: 5px;
+  background-color: #01004E;
+}
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
