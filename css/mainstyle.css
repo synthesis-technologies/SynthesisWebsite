@@ -443,7 +443,7 @@ button.owl-btn {
   font-size: 0.8rem;
 }
 
-.terms-conditions-hover:hover{
+.terms-conditions-hover:hover {
   color: #fff !important;
 }
 
@@ -462,16 +462,17 @@ button.owl-btn {
   color: var(--primary-color2);
 }
 
-.abtbottom{
+.abtbottom {
   border-color: #dca549 !important;
 }
 
 /* ============= About End ====== */
 
 /* ============= Contact Page Start ====== */
-.contact-header{
+.contact-header {
   background-image: url(../image/contact-banner.jpg);
 }
+
 /* ============= Contact Page End ====== */
 
 
@@ -500,36 +501,63 @@ button.owl-btn {
 
 
 /* e-commerce development page */
-.ecommerce-bg-img{
+.ecommerce-bg-img {
   background-image: url(../image/ecommerce/ecommerce-bg-img.png);
   background-position: right;
   background-size: 52% 170%;
   background-repeat: no-repeat;
 }
-.ecomcard{
+
+.ecomcard {
   border-radius: 3px;
   border: 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   background-color: #F8F8F8;
 }
-.ecomcard:hover{
+
+.ecomcard:hover {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.5);
   transition: all 0.7s 0s linear;
 }
-.card-icon{
+
+.card-icon {
   width: 6rem;
   height: 6rem;
   border-radius: 100%;
   background-color: var(--primary-color);
   top: -3rem;
 }
-.why-choose-us-bgimg{
+
+.why-choose-us-bgimg {
   background-image: url(../image/why-choose-us-banner.png);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/* PHP development page */
+.rangecol {
+  padding: 5.5rem;
+}
+
+.bgcolorchoose {
+  background-color: #20252B;
+}
+
+.parachoose {
+  font-size: 0.8rem;
+}
+
+.headchoose {
+  font-size: 1.2rem !important;
+}
+
+.bgimage {
+  background-image: url(../image/service/whychooseus-1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 /* ============ desktop view ============ */
@@ -547,13 +575,13 @@ button.owl-btn {
   }
 
   .industry-img {
-    width: 100%; 
+    width: 100%;
   }
 
   .owl-left {
     transform: translateX(-1500%);
   }
-  
+
   .owl-right {
     transform: translateX(1385%);
   }
@@ -630,13 +658,13 @@ button.owl-btn {
   .owl-left {
     transform: translateX(-965%);
   }
-  
+
   .owl-right {
     transform: translateX(845%);
   }
 
   /* e-commerce development page */
-  .ecommerce-bg-img{
+  .ecommerce-bg-img {
     background-size: 90% calc(100% - 40%);
     background-position: top right;
   }
@@ -645,6 +673,43 @@ button.owl-btn {
 
 /* ============ mobile view .end// ============ */
 
+/* <==========Php==========> */
+.mainabt {
+  font-size: 60px;
+}
+
+.headingphp {
+  font-size: 56px;
+}
+
+.imgphp {
+  background-color: var(--primary-color);
+  width: 80px;
+  height: 80px;
+}
+
+.imgphp:hover {
+  background-color: var(--primary-color2);
+  transition: 0.2s;
+}
+
+
+@media (max-width: 768px) {
+  .herophp {
+    font-size: 18px !important;
+    line-height: 24px;
+  }
+
+  .rangecol {
+    padding: 30px !important;
+  }
+}
 
 
 
+@media (max-width: 575px),
+(max-height: 600px) {
+  .chooseadj {
+    padding: 30px;
+  }
+}
