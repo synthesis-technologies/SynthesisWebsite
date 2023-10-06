@@ -539,7 +539,9 @@ button.owl-btn {
 .rangecol {
   padding: 5.5rem;
 }
-
+.phpwid{
+  width: 23% ;
+}
 .bgcolorchoose {
   background-color: #20252B;
 }
@@ -563,7 +565,9 @@ button.owl-btn {
 .reactbanner{
   width: 88%;
 }
-
+.nodecol{
+  padding: 3.5rem;
+}
 
 
 
@@ -721,5 +725,9 @@ button.owl-btn {
 (max-height: 600px) {
   .chooseadj {
     padding: 30px;
+  }
+
+  .phpwid{
+    width: 100%;
   }
 }
