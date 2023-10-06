@@ -559,6 +559,16 @@ button.owl-btn {
   background-repeat: no-repeat;
 }
 
+/* react development page */
+.reactbanner{
+  width: 88%;
+}
+
+
+
+
+
+
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
