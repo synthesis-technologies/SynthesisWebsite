@@ -195,7 +195,7 @@
 
 .grow_spin {
   background: #04044c;
-  color: #fff;
+  color: #fff !important;
   border: 0.25rem solid #04044c;
   padding: 5px 20px;
   position: relative;
@@ -204,7 +204,7 @@
 }
 
 .grow_spin:hover {
-  color: #dca549;
+  color: #dca549 !important;
 }
 
 .grow_spin::after {
