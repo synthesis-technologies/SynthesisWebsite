@@ -569,11 +569,6 @@ button.owl-btn {
   padding: 3.5rem;
 }
 
-
-
-
-
-
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
@@ -720,7 +715,6 @@ button.owl-btn {
 }
 
 
-
 @media (max-width: 575px),
 (max-height: 600px) {
   .chooseadj {
@@ -731,6 +725,8 @@ button.owl-btn {
     width: 100%;
   }
 }
-
+.bgcolor{
+  background-color: #9191c3;
+}
 
 
