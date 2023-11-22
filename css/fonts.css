@@ -1,14 +1,17 @@
 /* Font face */
 @font-face {
     font-family: "bahnschrift";
+    font-display: swap;
     src: url(../fonts/BAHNSCHRIFT.TTF);
 }
 @font-face {
     font-family: "forgotten-futurist";
+    font-display: swap;
     src: '../fonts/forgottenfuturistrg.otf';
 }
 
 @font-face {
     font-family: "raleway";
+    font-display: swap;
     src: '../fonts/Raleway-Regular.ttf';
 }
