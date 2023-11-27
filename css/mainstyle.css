@@ -7,6 +7,9 @@
 .primary-color-1 {
   color: var(--primary-color2);
 }
+.primary-color-2{
+  color: var(--primary-color);
+}
 
 .synthesis-logo {
   width: 20rem;
@@ -725,4 +728,38 @@ button.owl-btn {
   background-color: #9191c3;
 }
 
+/* <=======services==========> */
 
+.service-width{
+  width: 32%;
+}
+.service-height{
+  height:83%;
+}
+
+/* @media (max-width: 575px),
+(max-height: 600px) {
+  .service-width{
+    width: 100%;
+  }
+  .col-width{
+    width: 100% !important;
+  }
+} */
+.main-service-web{
+  font-size: 1.1rem;
+}
+.bg-color-1{
+  background-color: #7243B1;
+}
+
+.bg-color-2{
+  background-color: #39B6FF;
+}
+.bg-color-3{
+  background-color: #221D48;
+}
+
+.col-width{
+  width: 30%;
+}
