@@ -737,7 +737,7 @@ button.owl-btn {
   height:83%;
 }
 
-/* @media (max-width: 575px),
+@media (max-width: 575px),
 (max-height: 600px) {
   .service-width{
     width: 100%;
@@ -745,7 +745,7 @@ button.owl-btn {
   .col-width{
     width: 100% !important;
   }
-} */
+}
 .main-service-web{
   font-size: 1.1rem;
 }
