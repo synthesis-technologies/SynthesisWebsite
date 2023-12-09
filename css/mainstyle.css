@@ -239,6 +239,16 @@
   transform: scale(1, 1) rotate(0deg);
 }
 
+.banner-contact{
+  width: 55%;
+}
+@media (max-width: 575px),
+(max-height: 600px) {
+  .banner-contact{
+    width: 79%;
+  }
+}
+
 /* Services Section Ends */
 
 
