@@ -124,7 +124,7 @@
                                             </li> -->
                                             <li class="nav-item dropdown has-megamenu">
                                                 <a class="nav-link text-white dropdown-toggle" href="#" data-bs-toggle="dropdown">SERVICES</a>
-                                                <div class="dropdown-menu megamenu" role="menu">
+                                                <div class="dropdown-menu megamenu">
                                                     <div class="row g-3">
                                                         <div class="col-lg-3 col-6">
                                                             <div class="col-megamenu">
