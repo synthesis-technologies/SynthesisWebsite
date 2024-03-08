@@ -485,6 +485,9 @@ button.owl-btn {
 .contact-header {
   background-image: url(../image/contact-banner.jpg);
 }
+.mapbox{
+  border: none !important;
+}
 
 /* ============= Contact Page End ====== */
 
