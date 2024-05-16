@@ -7,7 +7,8 @@
 .primary-color-1 {
   color: var(--primary-color2);
 }
-.primary-color-2{
+
+.primary-color-2 {
   color: var(--primary-color);
 }
 
@@ -108,7 +109,6 @@
 
 .navbar .megamenu {
   padding: 2rem 6rem;
-
 }
 
 .dropdown-megamenu-item {
@@ -133,7 +133,6 @@
   background-position: left center;
   background-blend-mode: overlay;
   background-repeat: no-repeat;
-
   z-index: 1;
 }
 
@@ -179,7 +178,6 @@
   background-color: #04044c;
   word-spacing: 0.4rem;
 }
-
 
 /* Services Section Starts */
 .card-shadow {
@@ -239,12 +237,13 @@
   transform: scale(1, 1) rotate(0deg);
 }
 
-.banner-contact{
+.banner-contact {
   width: 55%;
 }
+
 @media (max-width: 575px),
 (max-height: 600px) {
-  .banner-contact{
+  .banner-contact {
     width: 79%;
   }
 }
@@ -407,6 +406,8 @@ button.owl-btn {
 
 /* Contact Section Ends Here */
 
+
+
 /* <==========footer==========> */
 
 #footer {
@@ -485,7 +486,8 @@ button.owl-btn {
 .contact-header {
   background-image: url(../image/contact-banner.jpg);
 }
-.mapbox{
+
+.mapbox {
   border: none !important;
 }
 
@@ -555,9 +557,11 @@ button.owl-btn {
 .rangecol {
   padding: 5.5rem;
 }
-.phpwid{
-  width: 23% ;
+
+.phpwid {
+  width: 23%;
 }
+
 .bgcolorchoose {
   background-color: #20252b73;
 }
@@ -578,10 +582,11 @@ button.owl-btn {
 }
 
 /* react development page */
-.reactbanner{
+.reactbanner {
   width: 88%;
 }
-.nodecol{
+
+.nodecol {
   padding: 3.5rem;
 }
 
@@ -610,11 +615,9 @@ button.owl-btn {
   .owl-right {
     transform: translateX(1385%);
   }
-
 }
 
 /* ============ desktop view .end// ============ */
-
 
 /* ============ mobile view ============ */
 @media(max-width: 991.9px) {
@@ -671,7 +674,6 @@ button.owl-btn {
     font-size: 0.8rem !important;
   }
 
-
   .industry-img {
     width: 100%;
   }
@@ -683,13 +685,11 @@ button.owl-btn {
   .owl-right {
     transform: translateX(845%);
   }
-
   /* e-commerce development page */
   .ecommerce-bg-img {
     background-size: 90% calc(100% - 40%);
     background-position: top right;
   }
-
 }
 
 /* ============ mobile view .end// ============ */
@@ -714,7 +714,6 @@ button.owl-btn {
   transition: 0.2s;
 }
 
-
 @media (max-width: 768px) {
   .herophp {
     font-size: 18px !important;
@@ -726,53 +725,265 @@ button.owl-btn {
   }
 }
 
-
 @media (max-width: 575px),
 (max-height: 600px) {
   .chooseadj {
     padding: 30px;
   }
 
-  .phpwid{
+  .phpwid {
     width: 100%;
   }
 }
-.bgcolor{
+
+.bgcolor {
   background-color: #9191c3;
 }
 
 /* <=======services==========> */
 
-.service-width{
+.service-width {
   width: 32%;
 }
-.service-height{
-  height:83%;
+
+.service-height {
+  height: 83%;
 }
 
-@media (max-width: 575px),
-(max-height: 600px) {
-  .service-width{
+@media (max-width: 480px),
+(max-height: 350px) {
+  .service-width {
     width: 100%;
   }
-  .col-width{
+
+  .col-width {
     width: 100% !important;
   }
 }
-.main-service-web{
+
+.main-service-web {
   font-size: 1.1rem;
 }
-.bg-color-1{
+
+.bg-color-1 {
   background-color: #7243B1;
 }
 
-.bg-color-2{
+.bg-color-2 {
   background-color: #39B6FF;
 }
-.bg-color-3{
+
+.bg-color-3 {
   background-color: #221D48;
 }
 
-.col-width{
+.col-width {
   width: 30%;
+}
+
+
+/* <============small-icon index=============> */
+.js {
+  color: #F0DB4F
+}
+
+.node {
+  color: #528F4C;
+}
+
+.Shopify {
+  color: #5C8C3E;
+}
+
+.android {
+  width: 25px;
+  height: 20px;
+}
+
+.flutter {
+  width: 25px;
+  height: 20px;
+}
+
+.adwords {
+  height: 20px;
+}
+
+.figma {
+  height: 20px;
+}
+
+/* FAQ section starts from here */
+
+.faq-container {
+  width: 100%;
+  max-width: 100%;
+  /* background-color: rgb(4, 4, 76); */
+  margin: 0;
+  /* min-height: 100vh; */
+}
+
+.container-faq {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.tab-container {
+  /* padding: 20px 7rem; */
+}
+
+/* Tab Accordian */
+
+.faq-ques {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 20px;
+  color: #4d4e58;
+  margin: 0;
+}
+
+.faq-ans{
+  font-weight: 400;
+  font-size: .88rem;
+  line-height: 20px;
+  color: #212529;
+  list-style: none;
+}
+
+.faq-link {
+  color: #60bdb2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tab-accordian ul {
+  padding-left: 22px;
+}
+
+.tab-accordian p {
+  margin-top: 0;
+}
+
+.tab-accordian {
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  background: transparent;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.titleWrapper {
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: background-color .8s linear;
+}
+
+/* .titleWrapper.active{
+  background: #fff;
+} */
+.desWrapper {
+  background: #fff;
+  max-height: 500px;
+  display: none;
+  padding: 20px;
+  transition: max-height 1s ease-in;
+}
+
+/* Collapse Icon */
+
+.collapse-icon {
+  position: relative;
+}
+
+.collapse-icon .acc-close {
+  height: 20px;
+  border-left: 2px solid #dca549;
+  transition: all .5s ease-in-out;
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+
+.collapse-icon .acc-open {
+  width: 19px;
+  position: absolute;
+  border-top: 2px solid #dca549;
+  transition: all .5s ease-in-out;
+  transform: rotate(90deg);
+  top: 43%;
+  right: -8px;
+}
+
+.titleWrapper.active .collapse-icon {
+  transition: all .5s ease-in-out;
+  transform: rotate(180deg);
+}
+
+.titleWrapper.inactive .collapse-icon {
+  transition: all .5s ease-in-out;
+  transform: rotate(-180deg);
+}
+
+.titleWrapper.active .collapse-icon .acc-open {
+  opacity: 0;
+}
+
+/* FAQ section ends here */
+
+
+
+/* <==========modal===========> */
+
+.modal-pop {
+  text-align: center;
+  color: white;
+}
+
+.modal-content-2 {
+  background-color: #29385C;
+}
+
+.input-group {
+  max-width: 600px;
+}
+
+.modal-content-1 {
+  background: rgba(9, 30, 62, .7);
+}
+
+.form-style {
+  height: 55px !important;
+}
+
+
+.service-width:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: ease-in-out 0.5s;
+}
+
+.project-content:hover {
+  box-shadow: 0px 10px 20px 0px #959191;
+  transition: 0.5s
+}
+
+
+.portfoliocolor{
+  background-color: #F8F9FA;
+}
+.portfoliobtn{
+  background-color: #04044c;
+}
+
+.portfoliobtn:hover{
+  background-color: #DCA549;
+  transition: ease-in-out 0.5s;
 }
