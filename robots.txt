@@ -3,3 +3,9 @@ User-agent: *
 Allow: /
 
 Sitemap: https://synthesis-technologies.com/sitemap.xml
+
+
+# Two pages to disallow
+
+Disallow: https://tasked.synthesis-technologies.com/57045333783352.html
+Disallow: https://tasked.synthesis-technologies.com/570453337816796.html 

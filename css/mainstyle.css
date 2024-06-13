@@ -818,9 +818,7 @@ button.owl-btn {
 .faq-container {
   width: 100%;
   max-width: 100%;
-  /* background-color: rgb(4, 4, 76); */
   margin: 0;
-  /* min-height: 100vh; */
 }
 
 .container-faq {
@@ -830,9 +828,6 @@ button.owl-btn {
   padding: 35px 0;
 }
 
-.tab-container {
-  /* padding: 20px 7rem; */
-}
 
 /* Tab Accordian */
 

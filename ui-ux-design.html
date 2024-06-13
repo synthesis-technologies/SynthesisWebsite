@@ -226,7 +226,6 @@
     </header>
     <!-- Topbar End -->
 
-
     <!-- --------------------- Hero Section Page Banner Starts ------------------- -->
     <main>
         <section class="container-fluid ">
@@ -370,7 +369,6 @@
     </section>
     <!-- ---------------------- Call to Action Close --------------------- -->
 
-
     <!-- ---------------------- Why Choose Us Start --------------------- ----->
     <div class="container-fluid bgimage p-5">
         <div class="container ">
@@ -432,24 +430,22 @@
 
     <!-- ---------------------- Why Choose Us Close --------------------- ----->
 
-
-
     <!-- Contact Section Starts from here -->
     <!-- <=============================contact form===============================> -->
     <div class="container-fluid py-5 contact-us ">
         <div class="container py-5">
             <div class="row justify-content-center align-items-center g-5">
                 <div class="col-11 col-lg-5">
-                    <h6 class="text-white small">Stay Tuned with Us</h6>
-                    <h3 class="text-white fw-bold display-5">Let's Scale Your Brand,
+                    <p class="text-white small">Stay Tuned with Us</p>
+                    <h4 class="text-white fw-bold display-5">Let's Scale Your Brand,
                         <span class="primary-color-1">Together</span>
-                    </h3>
+                    </h4>
                     <div class="row my-3">
-                        <div class="col-2 text-end">
+                        <div class="col-2 text-end me-lg-0 me-2">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call"
                                 width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none"
                                 stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" x />
                                 <path
                                     d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                                 <path d="M15 7a2 2 0 0 1 2 2" />
@@ -459,13 +455,13 @@
                         <div class="col ps-0">
                             <p class="text-white fw-semibold mb-0 fs-6 fs-lg-5">Phone Number</p>
                             <a href="tel:+919915944033"
-                                class="text-white text-decoration-none small d-block">+91-99159-44033</a>
+                                class="text-white text-decoration-none small d-block">+91-9915944033</a>
                             <a href="tel:+919878844033"
                                 class="text-white text-decoration-none small d-block">+91-9878844033</a>
                         </div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-2 text-end">
+                        <div class="col-2 text-end me-lg-0 me-2">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened"
                                 width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none"
                                 stroke-linecap="round" stroke-linejoin="round">
@@ -483,7 +479,7 @@
                         </div>
                     </div>
                     <div class="row my-3">
-                        <div class="col-2 text-end">
+                        <div class="col-2 text-end me-lg-0 me-2">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin"
                                 width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none"
                                 stroke-linecap="round" stroke-linejoin="round">
@@ -502,60 +498,72 @@
                     </div>
                 </div>
                 <div class="col-11 col-lg-5">
-                    <h1 class="text-white fs-1">Leave a Message</h1>
-                    <p class="text-white small">We’d love to hear from you and learn all about your business ideas &
-                        goals. Find out more about what we can offer your brand and business.</p>
-                    <form>
+                    <p class="text-white fs-1">LET'S DISCUSS YOUR PROJECT REQUIREMENT</p>
+                    <p class="text-white small">Tell us about your project goals and requirements</p>
+                    <form action="https://api.web3forms.com/submit" method="POST">
                         <div class="row py-1">
                             <div class="col-12 col-lg pt-1">
-                                <label for="firstName" class="form-label text-white text-start p-0">First Name</label>
-                                <input type="text" class="form-control rounded-0" id="firstName"
-                                    placeholder="First Name" required />
-                                <div class="form-error">First Name is required</div>
+                                <input type="hidden" name="access_key" value="420f48cb-ae08-44ee-8f83-cfa66f495a0e">
+                                <label for="fullName" class="form-label text-white text-start p-0">Full Name</label>
+                                <input name="Full name" type="text" class="form-control rounded-0" id="fullName"
+                                    placeholder="Full Name" required />
+                                <div class="form-error">Full Name is required</div>
                             </div>
-                            <div class="col-12 col-lg pt-1">
+                            <!-- <div class="col-12 col-lg pt-1">
                                 <label for="lastName" class="form-label text-white p-0">Last Name</label>
-                                <input type="text" class="form-control rounded-0" id="lastName" placeholder="Last Name"
-                                    required />
+                                <input name="Last name" type="text" class="form-control rounded-0" id="lastName"
+                                    placeholder="Last Name" required />
                                 <div class="form-error text-danger">Last Name is required</div>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row py-1">
                             <div class="col">
                                 <label for="email" class="form-label text-white text-start p-0">Email</label>
-                                <input type="text" class="form-control rounded-0" id="email" placeholder="Email Address"
-                                    required />
+                                <input name="Email" type="text" class="form-control rounded-0" id="email"
+                                    placeholder="Email Address" required />
                                 <div class="form-error">Email is required</div>
                             </div>
                         </div>
                         <div class="row py-1">
                             <div class="col">
                                 <label for="phoneno" class="form-label text-white text-start p-0">Phone Number</label>
-                                <input type="text" class="form-control rounded-0" id="phoneno"
-                                    placeholder="Phone Number" required />
+                                <input name="Phone number" type="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    class="form-control rounded-0" id="phoneno" placeholder="Phone Number" required />
                                 <div class="form-error">Phone No is required</div>
                             </div>
                         </div>
                         <div class="row py-1">
                             <div class="col d-block">
-                                <label for="subject" class="form-label text-white text-start p-0">Subject</label>
+                                <label for="subject" class="form-label text-white text-start p-0">What Service do you
+                                    Require?</label>
 
                                 <select name="subject" id="subject" class="form-control rounded-0">
                                     <option value="" readonly>Select a Topic</option>
-                                    <option value="">Web Development</option>
-                                    <option value="">Website Development</option>
-                                    <option value="">Web App Development</option>
-                                    <option value="">Mobile App Development</option>
-                                    <option value="">Digital Marketing</option>
-                                    <option value="">Google Ads</option>
-                                    <option value="">Content Writing</option>
-                                    <option value="">UI/UX Design</option>
-                                    <option value="">Logo Design</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Website Development">Website Development</option>
+                                    <option value="Web App Development">Web App Development</option>
+                                    <option value="Mobile App Development">Mobile App Development</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Google Ads">Google Ads</option>
+                                    <option value="Content Writing">Content Writing</option>
+                                    <option value="UI/UX Design">UI/UX Design</option>
+                                    <option value="Logo Design">Logo Design</option>
                                 </select>
 
                                 <div class="form-error">Please choose a Subject</div>
                             </div>
                         </div>
+
+                        <div class="row py-1">
+                            <div class="col">
+                                <label for="phoneno" class="form-label text-white text-start p-0">Estimated
+                                    Budget</label>
+                                <input name="Estimated Budget" type="text" class="form-control rounded-0"
+                                    id="Estimatedbudget" placeholder="Estimated Budget" required />
+                                <div class="form-error">Estimated Budget</div>
+                            </div>
+                        </div>
+
                         <div class="row py-1">
                             <div class="col">
                                 <label for="subject" class="form-label text-white text-start p-0">Message</label>
